@@ -161,16 +161,18 @@ CLOSE memberCursor;
 
 <!-- 이번 챕터에서는 확인문제를 실습 인증으로 대체하여 진행합니다. 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+![alt text](SQL_adv_week6_3.PNG)
 
+![alt text](SQL_adv_week6_4.PNG)
 
 ## 3. 자동 실행되는 트리거 
 
 <!-- 트리거에 관해 배우게 된 점을 적어주세요. -->
 
 ### 트리거 기본
-트리거 : DML문 (`INSERT`, `UPDATE`, `DELETE`) 등 이벤트가  발생하면 실행되는 코드.     
-사용 목적 : 특정 행을 삭제하기 전에 그 내용을 다른 곳에 복사해 놓고 싶을 때 매번 수작업으로 할 경우, 실수가 생길 수 있다. 따라서 DELETE 작업이 일어날 경우 해당 데이터가 삭제되기 전에 다른 곳에 자동으로 저장해주는 기능을 하는 것이 트리거의 대표적인 용도!
+**트리거** : DML문 (`INSERT`, `UPDATE`, `DELETE`) 등 이벤트가  발생하면 실행되는 코드.     
+**사용 목적** : 특정 행을 삭제하기 전에 그 내용을 다른 곳에 복사해 놓고 싶을 때 매번 수작업으로 할 경우, 실수가 생길 수 있다.      
+*따라서 DELETE 작업이 일어날 경우 해당 데이터가 삭제되기 전에 다른 곳에 자동으로 저장해주는 기능을 하는 것이 트리거의 대표적인 용도!*
 
 ~~~sql
 DROP TRIGGER IF EXISTS myTrigger;
@@ -229,7 +231,10 @@ DELETE FROM singer WHERE mem_number >=7 ;
 
 <!-- 이번 챕터에서는 확인문제를 실습 인증으로 대체하여 진행합니다. 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+![alt text](SQL_adv_week6_5.PNG)
+
+![alt text](SQL_adv_week6_6.PNG)
+
 
 
 ---
@@ -289,6 +294,8 @@ INSERT INTO accounts VALUES
 - 프로시저를 1회 이상 CALL 하시오.
 - 실행 후 `accounts` 테이블을 조회하여 잔액이 변경되었는지 확인하시오.
 
+![alt text](SQL_adv_week6_7.PNG)
+
 ---
 
 ### 2. 스토어드 함수
@@ -302,6 +309,8 @@ INSERT INTO accounts VALUES
 **추가 수행**
 - `accounts` 테이블을 조회하면서 `fn_is_vip(balance)` 결과를 함께 출력하시오.
 
+![alt text](SQL_adv_week6_8.PNG)
+
 ---
 
 ### 3. 커서(Cursor)
@@ -310,6 +319,8 @@ INSERT INTO accounts VALUES
 
 **추가 수행**
 - 프로시저를 CALL 하여 결과를 확인하시오.
+
+![alt text](SQL_adv_week6_9.PNG)
 
 ---
 
@@ -322,8 +333,7 @@ INSERT INTO accounts VALUES
 - accounts 잔액이 자동으로 증가하는지 확인하시오.
 
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
-
+![alt text](SQL_adv_week6_10.PNG)
 
 ### 🎉 수고하셨습니다.
 
