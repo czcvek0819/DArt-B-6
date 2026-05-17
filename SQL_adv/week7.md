@@ -49,9 +49,9 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
 
-![alt text](SQL_adv_week7_4-1.PNG)
+![alt text](SQL_adv_week7_1.PNG)
 
-![alt text](SQL_adv_week7_3-1.PNG)
+![alt text](SQL_adv_week7_2.PNG)
 
 ## 2. 파이썬과 MySQL의 연동
 
